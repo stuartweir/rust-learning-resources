@@ -1,0 +1,6 @@
+[book]
+authors = ["Stu Weir"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Rust Learning Resources"
