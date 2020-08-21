@@ -13,12 +13,12 @@ before_script:
   - cargo install-update -a
 
 script:
-  - mdbook build $RUST_LEARNING_BOOK_PATH && mdbook test $RUST_LEARNING_BOOK_PATH
+  - mdbook build && mdbook test
 
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: $GITHUB_TOKEN
+  github-token: $RUST_LEARNING_PATH_GITHUB_TOKEN
   local-dir: $RUST_LEARNING_BOOK_PATH
   keep-history: false
   on:
