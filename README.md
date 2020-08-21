@@ -4,7 +4,7 @@
 
 Clone the repo and then install mdbook:
 ```bash
-$ git clone REPO
+$ git clone https://github.com/stuartweir/rust-learning-resources.git
 $ cargo install mdbook
 ```
 
